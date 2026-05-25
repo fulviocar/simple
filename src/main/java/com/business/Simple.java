@@ -5,7 +5,7 @@ public class Simple {
 	public static void main(String[] args) throws InterruptedException {
 
 		while (true) {
-			System.out.println("Version 1c");
+			System.out.println("Version 2");
 			Thread.sleep(10000);
 		}
 
