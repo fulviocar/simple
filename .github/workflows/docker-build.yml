@@ -33,7 +33,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/1.0.0 .
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/simple:1.0.0 .
 
       - name: Push Docker image
         run: |
