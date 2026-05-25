@@ -3,4 +3,27 @@
   <groupId>com.business</groupId>
   <artifactId>simple</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+    <plugins>
+
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>3.3.0</version>
+
+            <configuration>
+                <archive>
+                    <manifest>
+                        <mainClass>
+                            com.business.Simple
+                        </mainClass>
+                    </manifest>
+                </archive>
+            </configuration>
+
+        </plugin>
+
+    </plugins>
+</build>
 </project>
